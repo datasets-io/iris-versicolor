@@ -22,14 +22,14 @@ describe( 'datasets-iris-versicolor', function tests() {
 	});
 
 	it( 'should have a `sepal` property', function test() {
-		assert.hasProperty( data, 'sepal' );
+		assert.property( data, 'sepal' );
 		assert.isObject( data.sepal );
 		assert.isArray( data.sepal.len );
 		assert.isArray( data.sepal.width );
 	});
 
 	it( 'should have a `petal` property', function test() {
-		assert.hasProperty( data, 'petal' );
+		assert.property( data, 'petal' );
 		assert.isObject( data.petal );
 		assert.isArray( data.petal.len );
 		assert.isArray( data.petal.width );

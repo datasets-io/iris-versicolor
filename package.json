@@ -41,10 +41,16 @@
   "bugs": {
     "url": "https://github.com/datasets-io/iris-versicolor/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "datasets-iris-versicolor-petal": "^1.0.0",
+    "datasets-iris-versicolor-sepal": "^1.0.1"
+  },
   "devDependencies": {
     "chai": "3.x.x",
     "codecov.io": "^0.1.5",
+    "compute-mean": "^3.0.0",
+    "compute-to-matrix": "^1.0.0",
+    "compute-variance": "^3.0.0",
     "istanbul": "^0.3.0",
     "jshint": "2.x.x",
     "jshint-stylish": "2.x.x",
